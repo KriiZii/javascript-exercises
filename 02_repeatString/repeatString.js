@@ -1,6 +1,6 @@
-const repeatString = function() {
-
+const repeatString = function(string, num) {
+    let repeatedString = string.repeat(num);
+    return repeatedString;
 };
 
-// Do not edit below this line
-module.exports = repeatString;
+console.log(repeatString("hey", 3));
